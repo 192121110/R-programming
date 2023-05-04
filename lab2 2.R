@@ -1,0 +1,5 @@
+a<-array(1:9,dim=c(3,3))
+b<-array(10:18,dim=c(3,3))
+c<-array(19:27,dim=c(3,3))
+k<-rbind(a[1,],b[1,],c[1,])
+print(k)
